@@ -1,0 +1,29 @@
+.button {
+    margin-top: 150px;
+    width: 452px;
+    height: 139px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+    font-family: 'OpenSansCondensed';
+    font-size: 50px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #6399b9;
+        transition: all 0.3s;
+    }
+    &:focus {
+        outline: none;
+    }
+
+    &_second-block {
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #bd84dc;
+            transition: all 0.3s;
+        }
+    }
+}

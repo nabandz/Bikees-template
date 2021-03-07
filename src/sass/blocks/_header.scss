@@ -1,0 +1,20 @@
+.header {
+    display: block;
+    padding: 55px 85px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &__nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        font-family: 'OdinRounded';
+        font-size: 83.5px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
