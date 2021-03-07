@@ -4,12 +4,14 @@
 
     &__wrapper {
         display: flex;
-        justify-content: space-around;
         align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     &__block {
-        padding: 475px 0 615px 0;
+        padding: 475px 20px 615px 20px;
+        min-width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
