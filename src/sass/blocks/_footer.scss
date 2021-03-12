@@ -92,4 +92,18 @@
             color: #ffffff;
         }
     }
+
+    &__social {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        margin-top: 75px;
+        font-size: 50px;
+        a {
+            text-decoration: none;
+        }
+        i {
+            color: #a8abb3;
+        }
+    }
 }
