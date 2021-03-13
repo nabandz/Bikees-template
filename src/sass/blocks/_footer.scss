@@ -1,15 +1,19 @@
 .footer {
-    padding: 20px 0px;
+    max-height: 550px;
+    padding: 35px 0px;
     background-color: #595f6f;
 
     &__wrapper {
+        height: 295px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     &__info {
         width: 50%;
+        border-right: 2px solid #4d5362;
     }
 
     &__logo {
@@ -50,18 +54,30 @@
     }
 
     &__menu {
+        padding: 65px 0px 65px 65px;
+        height: 100%;
         width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-right: 2px solid #4d5362;
         a {
+            margin: 5px 0;
             display: flex;
+            width: 200px;
+            height: 30px;
             font-family: 'OpenSans';
             font-size: 20px;
             font-weight: 300;
             color: #c3c3c3;
             text-transform: uppercase;
+            text-decoration: none;
         }
     }
 
     &__links {
+        padding-left: 40px;
         width: 20%;
         display: flex;
         flex-direction: column;

@@ -18,6 +18,11 @@
     margin: 0 auto;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 @import 'blocks/header';
 @import 'blocks/home';
 @import 'blocks/titles';
