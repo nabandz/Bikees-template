@@ -1,6 +1,6 @@
 .header {
     display: block;
-    padding: 55px 85px;
+    padding: 10px 85px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
 
@@ -13,8 +13,14 @@
 
     &__logo {
         font-family: 'OdinRounded';
-        font-size: 83.5px;
+        font-size: 55px;
         font-weight: 400;
         color: #ffffff;
+    }
+
+    &__search {
+        img {
+            width: 50px;
+        }
     }
 }

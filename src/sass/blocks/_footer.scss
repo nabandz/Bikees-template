@@ -1,5 +1,5 @@
 .footer {
-    padding: 65px 0px;
+    padding: 20px 0px;
     background-color: #595f6f;
 
     &__wrapper {
@@ -15,16 +15,16 @@
     &__logo {
         margin: 0;
         font-family: 'OdinRounded';
-        font-size: 57.5px;
+        font-size: 35px;
         font-weight: 400;
         color: #ffffff;
     }
 
     &__descr {
         margin: 0;
-        margin-top: 60px;
+        margin-top: 25px;
         font-family: 'OpenSans';
-        font-size: 35px;
+        font-size: 20px;
         font-weight: 600;
         color: #c3c3c3;
         text-transform: uppercase;
@@ -32,18 +32,18 @@
 
     &__link {
         margin: 0;
-        margin-top: 60px;
+        margin-top: 25px;
         font-family: 'OpenSans';
-        font-size: 35px;
+        font-size: 20px;
         color: #c3c3c3;
         text-decoration: underline;
     }
 
     &__c {
         margin: 0;
-        margin-top: 100px;
+        margin-top: 50px;
         font-family: 'OpenSansCondensed';
-        font-size: 35px;
+        font-size: 20px;
         line-height: 50px;
         font-weight: 700;
         color: #ffffff;
@@ -54,7 +54,7 @@
         a {
             display: flex;
             font-family: 'OpenSans';
-            font-size: 35px;
+            font-size: 20px;
             font-weight: 300;
             color: #c3c3c3;
             text-transform: uppercase;
@@ -63,9 +63,12 @@
 
     &__links {
         width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         p {
             font-family: 'OpenSansCondensed';
-            font-size: 35px;
+            font-size: 20px;
             font-weight: 300;
             text-transform: uppercase;
             color: #ffffff;
@@ -74,9 +77,9 @@
 
     &__form {
         input {
-            padding: 40px 50px;
-            width: 452px;
-            height: 107px;
+            padding: 15px;
+            width: 300px;
+            height: 65px;
             opacity: 0.1;
             background-color: #818181;
             border-radius: 10px;
@@ -86,23 +89,25 @@
         }
         ::placeholder {
             font-family: 'OpenSans';
-            font-size: 30px;
+            font-size: 20px;
             font-weight: 300;
             font-style: italic;
             color: #ffffff;
+            text-align: center;
         }
     }
 
     &__social {
         display: flex;
         width: 300px;
-        justify-content: space-between;
-        margin-top: 75px;
-        font-size: 50px;
+        margin-top: 35px;
+        font-size: 30px;
+        justify-content: center;
         a {
             text-decoration: none;
         }
         i {
+            margin: 0 20px;
             color: #a8abb3;
         }
     }
