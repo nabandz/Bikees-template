@@ -1,5 +1,4 @@
 .footer {
-    max-height: 550px;
     padding: 35px 0px;
     background-color: #595f6f;
 
@@ -12,8 +11,11 @@
     }
 
     &__info {
+        display: flex;
+        flex-direction: column;
         width: 50%;
         border-right: 2px solid #4d5362;
+        background-color: #595f6f;
     }
 
     &__logo {
@@ -54,7 +56,7 @@
     }
 
     &__menu {
-        padding: 65px 0px 65px 65px;
+        padding: 65px 0px;
         height: 100%;
         width: 30%;
         display: flex;
@@ -62,6 +64,7 @@
         justify-content: center;
         align-items: center;
         border-right: 2px solid #4d5362;
+        background-color: #595f6f;
         a {
             margin: 5px 0;
             display: flex;
@@ -80,11 +83,10 @@
     }
 
     &__links {
-        padding-left: 40px;
-        width: 20%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: #595f6f;
         p {
             font-family: 'OpenSansCondensed';
             font-size: 20px;

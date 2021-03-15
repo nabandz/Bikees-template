@@ -1,6 +1,4 @@
 .home {
-    max-height: 1080px;
-
     &__wrapper {
         display: flex;
         align-items: center;
@@ -21,5 +19,4 @@
             background: url(../img/home_bike_2.jpg) center (center/cover) no-repeat;
         }
     }
-
 }
