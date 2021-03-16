@@ -18,9 +18,13 @@
         color: #ffffff;
     }
 
-    &__search {
+    &__btn {
+        background: transparent;
         img {
             width: 40px;
+        }
+        &:focus {
+            outline: none;
         }
     }
 }
