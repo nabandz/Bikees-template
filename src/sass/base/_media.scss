@@ -30,7 +30,6 @@
 
 @media (max-width: 1200px) {
     .header {
-        padding: 10px 50px;
         &__logo {
             font-size: 40px;
         }
@@ -110,7 +109,85 @@
 }
 
 @media (max-width: 991px) {
+    .header {
+        &__logo {
+            font-size: 35px;
+        }
+    
+        &__btn {
+            img {
+                width: 25px;
+            }
+        }
+    }
 
+    .title {
+        font-size: 90px;
+    }
+
+    .subtitle {
+        font-size: 50px;
+    }
+
+    .button {
+        width: 255px;
+        height: 65px;
+    
+        font-size: 23px;
+    }
+
+    .footer {
+        &__wrapper {
+            height: 220px;
+        }
+
+        &__logo {
+            font-size: 25px;
+        }
+
+        &__descr {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        &__link {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        &__c {
+            margin-top: 35px;
+            font-size: 15px;
+        }
+
+        &__menu {
+            a {
+                margin: 3px 14px;
+                width: 120px;
+                font-size: 15px;
+            }
+        }
+
+        &__links {
+            p {
+                font-size: 15px;
+            }
+        }
+
+        &__social {
+            font-size: 20px;
+        }
+
+        &__form {
+            input {
+                width: 195px;
+                height: 55px;
+            }
+            ::placeholder {
+                font-size: 14px;
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
