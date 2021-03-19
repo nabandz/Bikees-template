@@ -5,7 +5,6 @@
     &__wrapper {
         height: 295px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
     }
@@ -57,9 +56,9 @@
     }
 
     &__menu {
-        padding: 65px 0px;
+        padding: 65px 40px;
         height: 100%;
-        width: 25%;
+        width: 30%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -67,9 +66,9 @@
         border-right: 2px solid #4d5362;
         background-color: #595f6f;
         a {
-            margin: 5px 0;
+            margin: 5px 25px;
             display: flex;
-            width: 175px;
+            width: 145px;
             height: 30px;
             font-family: 'OpenSans';
             font-size: 20px;
@@ -84,10 +83,12 @@
     }
 
     &__links {
+        height: 100%;
         display: flex;
         width: 20%;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         background-color: #595f6f;
         p {
             font-family: 'OpenSansCondensed';

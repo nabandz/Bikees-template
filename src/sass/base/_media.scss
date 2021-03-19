@@ -14,10 +14,16 @@
         }
 
         &__menu {
-            width: 23%;
+            padding: 65px 25px;
+            width: 27%;
             a {
-                width: 145px;
+                margin: 5px 14px;
+                width: 120px;
             }
+        }
+
+        &__links {
+            width: 23%;
         }
 
         &__social {
