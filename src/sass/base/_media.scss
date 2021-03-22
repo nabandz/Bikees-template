@@ -191,6 +191,42 @@
 }
 
 @media (max-width: 767px) {
+    .home {
+        &__block {
+            min-width: 100%;
+        } 
+    }
+
+    .footer {
+        padding: 0px 50px;
+        &__wrapper {
+            height: auto;
+        }
+
+        &__info {
+            padding: 25px 0px;
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #4d5362;
+            align-items: center;
+        }
+
+        &__menu {
+            padding: 25px 0px;
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #4d5362;
+            flex-direction: column;
+            a {
+                justify-content: center;
+            }
+        }
+
+        &__links {
+            padding: 25px 0px;
+            width: 100%;
+        }
+    }
 
 }
 
