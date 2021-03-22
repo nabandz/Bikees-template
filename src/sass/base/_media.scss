@@ -191,8 +191,25 @@
 }
 
 @media (max-width: 767px) {
+    .button {
+        font-size: 25px;
+    }
+
+    .header {
+        &__logo {
+            font-size: 40px;
+        }
+
+        &__btn {
+            img {
+                width: 30px;
+            }
+        }
+    }
+
     .home {
         &__block {
+            padding: 200px 0 180px 0;
             min-width: 100%;
         } 
     }
@@ -219,12 +236,49 @@
             flex-direction: column;
             a {
                 justify-content: center;
+                width: auto;
+                margin: 10px 14px;
+                font-size: 25px;
             }
         }
 
         &__links {
             padding: 25px 0px;
             width: 100%;
+            p {
+                font-size: 25px;
+            }
+        }
+
+        &__form {
+            input {
+                width: 350px;
+                height: 70px;
+            }
+            ::placeholder {
+                font-size: 20px;
+            }
+        }
+
+        &__logo {
+            font-size: 35px;
+        }
+
+        &__descr {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        &__link {
+            font-size: 25px;
+        }
+
+        &__c {
+            font-size: 25px;
+        }
+
+        &__social {
+            font-size: 30px;
         }
     }
 
