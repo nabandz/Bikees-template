@@ -1,5 +1,5 @@
 .footer {
-    padding: 35px 50px;
+    padding: 35px 0px;
     background-color: #595f6f;
 
     &__wrapper {
@@ -10,10 +10,11 @@
     }
 
     &__info {
+        padding: 0px 50px;
         display: flex;
         flex-direction: column;
         height: 100%;
-        min-width: 50%;
+        width: 50%;
         border-right: 2px solid #4d5362;
         background-color: #595f6f;
     }
@@ -56,7 +57,7 @@
     }
 
     &__menu {
-        padding: 30px 40px;
+        padding: 30px 30px;
         height: 100%;
         width: 30%;
         display: flex;
@@ -84,6 +85,7 @@
     }
 
     &__links {
+        padding: 0px 50px;
         height: 100%;
         display: flex;
         width: 20%;
@@ -97,6 +99,7 @@
             font-weight: 300;
             text-transform: uppercase;
             color: #ffffff;
+            text-align: center;
         }
     }
 
