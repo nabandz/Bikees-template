@@ -232,7 +232,7 @@
             padding: 25px 0px;
             width: 100%;
             border: none;
-            border-bottom: 2px solid #4d5362;
+            border-bottom: 2px solid $border-color;
             align-items: center;
         }
 
@@ -240,7 +240,7 @@
             padding: 25px 0px;
             width: 100%;
             border: none;
-            border-bottom: 2px solid #4d5362;
+            border-bottom: 2px solid $border-color;
             flex-direction: column;
             a {
                 justify-content: center;
