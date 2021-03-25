@@ -1,14 +1,12 @@
 .footer {
     padding: 35px 0px;
     background-color: $footer-color;
-
     &__wrapper {
         height: 295px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
     }
-
     &__info {
         padding: 0px 50px;
         display: flex;
@@ -18,7 +16,6 @@
         border-right: 2px solid $border-color;
         background-color: $footer-color;
     }
-
     &__logo {
         margin: 0;
         font-family: 'OdinRounded';
@@ -26,8 +23,7 @@
         font-weight: 400;
         color: $main-color;
     }
-
-    &__descr {
+    &__description {
         margin: 0;
         margin-top: 25px;
         font-family: 'OpenSans';
@@ -36,8 +32,7 @@
         color: $text-color;
         text-transform: uppercase;
     }
-
-    &__link {
+    &__delivery {
         margin: 0;
         margin-top: 25px;
         font-family: 'OpenSans';
@@ -45,7 +40,6 @@
         color: $text-color;
         text-decoration: underline;
     }
-
     &__c {
         margin: 0;
         margin-top: 50px;
@@ -55,7 +49,6 @@
         font-weight: 700;
         color: $main-color;
     }
-
     &__menu {
         padding: 30px 30px;
         height: 100%;
@@ -83,8 +76,7 @@
             }
         }
     }
-
-    &__links {
+    &__news {
         padding: 0px 50px;
         height: 100%;
         display: flex;
@@ -102,7 +94,6 @@
             text-align: center;
         }
     }
-
     &__form {
         input {
             padding: 15px;
@@ -124,7 +115,6 @@
             text-align: center;
         }
     }
-
     &__social {
         display: flex;
         margin-top: 35px;
